@@ -62,11 +62,11 @@ class _TouchIndicatorState extends State<TouchIndicator> {
                     shape: BoxShape.circle,
                     color: widget.indicatorColor.withOpacity(0.3),
                   ),
-                  child: Icon(
-                    Icons.fingerprint,
-                    size: widget.indicatorSize,
-                    color: widget.indicatorColor.withOpacity(0.9),
-                  ),
+//                  child: Icon(
+//                    Icons.fingerprint,
+//                    size: widget.indicatorSize,
+//                    color: widget.indicatorColor.withOpacity(0.9),
+//                  ),
                 ),
           textDirection: TextDirection.ltr,
         );
