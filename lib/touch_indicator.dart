@@ -58,6 +58,8 @@ class _TouchIndicatorState extends State<TouchIndicator> {
           child: widget.indicator != null
               ? widget.indicator
               : Container(
+                  height: 48,
+                  width: 48,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: widget.indicatorColor.withOpacity(0.3),
